@@ -1,0 +1,1324 @@
+***** Exe : Query26 - black - extrapolation
+***** Case: 1
+***** Run : Matern52 - EIC
+      Threshold = 0.1111111111111111
+***** Exe : Query26 - black - extrapolation
+***** Case: 1
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 61, 2, 70, 3, 71, 72, 4, 5, 73, 74, 6, 75, 7, 8, 9, 76, 77, 78, 10, 79, 20, 21, 22, 23, 24, 11, 12, 13, 14]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 61, 2, 70, 3, 71, 72, 4, 5, 73, 74, 6, 75, 7, 8, 9, 76, 77, 78, 10, 79, 20, 21, 22, 23, 24, 11, 12, 13, 14]
+   TERM_cumulative_cost = 13.723293888888886
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 51, 52, 55, 10, 56, 57, 58, 11, 59, 60, 61, 62, 63, 64, 12, 13, 14, 65, 66, 67, 68, 69, 5, 6, 7, 8, 9, 15, 16, 17]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20086222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 51, 52, 55, 10, 56, 57, 58, 11, 59, 60, 61, 62, 63, 64, 12, 13, 14, 65, 66, 67, 68, 69, 5, 6, 7, 8, 9, 15, 16, 17]
+   TERM_cumulative_cost = 14.99854333333333
+   over_the_top_counter = 6
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 25, 26, 27, 28]
+   TERM_cumulative_cost = 87.72313000000001
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 6.40436053602996
+   MPE_eval_PRE         = 4.641367018138466
+   n_SampledTrain_iter  = 17
+   MAPE_eval_POST       = 2.8557726930712866
+   MPE_eval_POST        = 2.666856199893258
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 5, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 25, 26, 6]
+   TERM_cumulative_cost = 87.39852611111112
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.910423961899984
+   MPE_eval_PRE         = 3.9316816169197772
+   n_SampledTrain_iter  = 17
+   MAPE_eval_POST       = 5.006905699937592
+   MPE_eval_POST        = 4.766085849481553
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 5, 15, 16, 25, 26, 27, 28, 29, 80, 81, 82, 75, 76, 83, 84, 77, 17, 31, 32, 18, 19, 78, 79, 20, 33, 34, 85, 86, 87, 88]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 5, 15, 16, 25, 26, 27, 28, 29, 80, 81, 82, 75, 76, 83, 84, 77, 17, 31, 32, 18, 19, 78, 79, 20, 33, 34, 85, 86, 87, 88]
+   TERM_cumulative_cost = 79.51294944444444
+   over_the_top_counter = 17
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 6.40436053602996
+   MPE_eval_PRE         = 4.641367018138466
+   n_SampledTrain_iter  = 18
+   MAPE_eval_POST       = 5.237921801839071
+   MPE_eval_POST        = 5.007992266460357
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 5, 15, 16, 17, 18, 19, 20, 65, 21, 22, 23, 24, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 25, 26, 27, 28]
+   TERM_cumulative_cost = 87.7750327777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.910423961899984
+   MPE_eval_PRE         = 3.9316816169197772
+   n_SampledTrain_iter  = 17
+   MAPE_eval_POST       = 5.054381277684409
+   MPE_eval_POST        = 4.805155977785323
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 25, 15, 16, 17, 18, 19, 20, 21, 65, 1, 22, 23, 75, 24, 66, 67, 68, 69, 76, 70, 77, 71, 72, 78, 26, 73, 27, 79, 28, 29]
+   TERM_cumulative_cost = 87.87544000000001
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 6.40436053602996
+   MPE_eval_PRE         = 4.641367018138466
+   n_SampledTrain_iter  = 18
+   MAPE_eval_POST       = 3.0108830123661536
+   MPE_eval_POST        = 2.837837886192494
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 15, 65, 16, 17, 18, 19, 20, 21, 22, 23, 24, 66, 67, 68, 69, 70, 71, 72, 73, 74, 1, 75, 76, 77, 78, 79, 25, 26, 27]
+   TERM_cumulative_cost = 87.5667188888889
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.910423961899984
+   MPE_eval_PRE         = 3.9316816169197772
+   n_SampledTrain_iter  = 16
+   MAPE_eval_POST       = 5.049296321978133
+   MPE_eval_POST        = 4.831828160335357
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 25, 75, 26, 31, 15, 27, 28, 76, 29, 80, 81, 82, 77, 83, 78, 79, 16, 17, 84, 18, 32, 19, 20, 21, 33, 34, 85, 22, 23]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 25, 75, 26, 31, 15, 27, 28, 76, 29, 80, 81, 82, 77, 83, 78, 79, 16, 17, 84, 18, 32, 19, 20, 21, 33, 34, 85, 22, 23]
+   TERM_cumulative_cost = 91.64806999999999
+   over_the_top_counter = 20
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 6.40436053602996
+   MPE_eval_PRE         = 4.641367018138466
+   n_SampledTrain_iter  = 21
+   MAPE_eval_POST       = 3.1079869950284804
+   MPE_eval_POST        = 2.9716126849164106
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 5, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 6, 25, 7, 26]
+   TERM_cumulative_cost = 87.46754555555556
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.910423961899984
+   MPE_eval_PRE         = 3.9316816169197772
+   n_SampledTrain_iter  = 17
+   MAPE_eval_POST       = 4.991758163583591
+   MPE_eval_POST        = 4.699532312589342
+  Execution time: 17345.90395450592
+
+***** Exe : Query26 - black - extrapolation
+***** Case: 2
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 23, 45, 1, 2, 46, 47, 3, 10, 4, 5, 11, 6, 12, 7, 13, 14, 8, 9, 15, 16, 17, 18, 19, 65, 66, 67, 68, 69, 55, 56, 57, 58]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 23, 45, 1, 2, 46, 47, 3, 10, 4, 5, 11, 6, 12, 7, 13, 14, 8, 9, 15, 16, 17, 18, 19, 65, 66, 67, 68, 69, 55, 56, 57, 58]
+   TERM_cumulative_cost = 12.948012777777777
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 20, 40, 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 45, 46, 47, 48, 49, 15, 16, 17]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20086222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 45, 46, 47, 48, 49, 15, 16, 17]
+   TERM_cumulative_cost = 27.943007222222224
+   over_the_top_counter = 12
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 1, 41, 42, 43, 44, 45, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 65, 66, 67, 68]
+   TERM_cumulative_cost = 86.85284722222224
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.7412578849047735
+   MPE_eval_PRE         = 1.4218473813123618
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 3.356436143531853
+   MPE_eval_POST        = 1.7352536892265034
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 1, 45, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 65, 66, 67, 68, 69, 15, 16, 17]
+   TERM_cumulative_cost = 87.56753444444446
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.039572010620949
+   MPE_eval_PRE         = 2.8180954362893957
+   n_SampledTrain_iter  = 16
+   MAPE_eval_POST       = 3.9039042885499753
+   MPE_eval_POST        = 3.4443347851935813
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 20, 40, 45, 55, 15, 16, 17, 18, 1, 19, 70, 71, 72, 73, 74, 65, 66, 67, 68, 75, 69, 76, 77, 78, 56, 79, 21, 57, 22, 5, 23, 58]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 45, 55, 15, 16, 17, 18, 1, 19, 70, 71, 72, 73, 74, 65, 66, 67, 68, 75, 69, 76, 77, 78, 56, 79, 21, 57, 22, 5, 23, 58]
+   TERM_cumulative_cost = 74.01164888888889
+   over_the_top_counter = 14
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 4.7412578849047735
+   MPE_eval_PRE         = 1.4218473813123618
+   n_SampledTrain_iter  = 12
+   MAPE_eval_POST       = 0.7071595579959468
+   MPE_eval_POST        = -0.4647552569652084
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 41, 42, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 65, 66, 67, 68, 69, 15, 16, 17]
+   TERM_cumulative_cost = 87.58274833333334
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.039572010620949
+   MPE_eval_PRE         = 2.8180954362893957
+   n_SampledTrain_iter  = 15
+   MAPE_eval_POST       = 3.8663103611706884
+   MPE_eval_POST        = 3.3626590723778307
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 85, 65, 55, 56, 5, 15, 16, 66, 17, 67, 18, 57, 58, 59, 60, 19, 68, 70, 69, 71, 72, 73, 61, 74, 62, 75, 63, 76, 77, 78]
+   TERM_cumulative_cost = 36.47989666666667
+   over_the_top_counter = 11
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.7412578849047735
+   MPE_eval_PRE         = 1.4218473813123618
+   n_SampledTrain_iter  = 8
+   MAPE_eval_POST       = 3.713220415797601
+   MPE_eval_POST        = 3.3467629687933806
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 45, 55, 56, 57, 5, 58, 59, 60, 61, 62, 6, 63, 64, 7, 8, 9, 10, 11, 12, 13, 14, 65, 66, 67, 68, 69, 15, 16, 17, 18]
+   TERM_cumulative_cost = 87.7750327777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.039572010620949
+   MPE_eval_PRE         = 2.8180954362893957
+   n_SampledTrain_iter  = 16
+   MAPE_eval_POST       = 3.906339162644451
+   MPE_eval_POST        = 3.43449443952807
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 20, 40, 1, 75, 65, 15, 16, 17, 18, 19, 70, 66, 67, 68, 71, 69, 72, 73, 74, 76, 55, 77, 78, 56, 79, 21, 22, 23, 24, 57, 58, 59]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 1, 75, 65, 15, 16, 17, 18, 19, 70, 66, 67, 68, 71, 69, 72, 73, 74, 76, 55, 77, 78, 56, 79, 21, 22, 23, 24, 57, 58, 59]
+   TERM_cumulative_cost = 87.96368500000003
+   over_the_top_counter = 14
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 4.7412578849047735
+   MPE_eval_PRE         = 1.4218473813123618
+   n_SampledTrain_iter  = 12
+   MAPE_eval_POST       = 2.8258723884802515
+   MPE_eval_POST        = 2.4047043427775563
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 20, 40, 41, 45, 5, 55, 56, 57, 58, 59, 1, 46, 60, 61, 62, 63, 64, 65, 6, 7, 8, 9, 10, 11, 12, 13, 14, 66, 67, 68, 69, 15]
+   TERM_cumulative_cost = 87.23949000000002
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.039572010620949
+   MPE_eval_PRE         = 2.8180954362893957
+   n_SampledTrain_iter  = 14
+   MAPE_eval_POST       = 3.7974547052064147
+   MPE_eval_POST        = 3.2402061313732426
+  Execution time: 17630.79238986969
+
+***** Exe : Query26 - black - extrapolation
+***** Case: 3
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 1, 55, 56, 57, 58, 2, 3, 4, 59, 5, 60, 61, 6, 7, 8, 9, 62, 63, 64, 45, 10, 11, 12, 13, 14, 46, 47, 48, 49, 50]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 55, 56, 57, 58, 2, 3, 4, 59, 5, 60, 61, 6, 7, 8, 9, 62, 63, 64, 45, 10, 11, 12, 13, 14, 46, 47, 48, 49, 50]
+   TERM_cumulative_cost = 13.755368333333331
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 15, 30, 31, 32, 33, 40, 5, 41, 42, 43, 44, 45, 6, 46, 47, 48, 49, 7, 8, 9, 50, 51, 52, 53, 54, 35, 36, 55, 37, 38, 56, 39]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20086222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 31, 32, 33, 40, 5, 41, 42, 43, 44, 45, 6, 46, 47, 48, 49, 7, 8, 9, 50, 51, 52, 53, 54, 35, 36, 55, 37, 38, 56, 39]
+   TERM_cumulative_cost = 14.960076666666666
+   over_the_top_counter = 6
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]
+   TERM_cumulative_cost = 87.72313000000001
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 5.92297388948094
+   MPE_eval_PRE         = 4.176706068945841
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 4.430850072023981
+   MPE_eval_POST        = 4.219676043163064
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 50, 5, 51, 52, 6, 7, 8, 9, 10, 11, 12, 13, 14, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 40, 65, 66, 67]
+   TERM_cumulative_cost = 87.56753444444446
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 3.9504977496620297
+   MPE_eval_PRE         = 3.0995278908384325
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 4.1605125740518245
+   MPE_eval_POST        = 3.9775755712796617
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 65, 51, 52, 53, 54, 55, 56, 57, 58, 66, 67, 68, 69, 70, 59, 71, 60, 61]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 65, 51, 52, 53, 54, 55, 56, 57, 58, 66, 67, 68, 69, 70, 59, 71, 60, 61]
+   TERM_cumulative_cost = 88.333455
+   over_the_top_counter = 28
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 5.92297388948094
+   MPE_eval_PRE         = 4.176706068945841
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 4.430850072023981
+   MPE_eval_POST        = 4.219676043163064
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 40, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]
+   TERM_cumulative_cost = 87.7750327777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 3.9504977496620297
+   MPE_eval_PRE         = 3.0995278908384325
+   n_SampledTrain_iter  = 12
+   MAPE_eval_POST       = 4.146764644076482
+   MPE_eval_POST        = 3.942307553263089
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 60, 65, 5, 6, 7, 1, 66, 61, 62, 67, 63, 64, 68, 69, 70, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 71, 72]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 60, 65, 5, 6, 7, 1, 66, 61, 62, 67, 63, 64, 68, 69, 70, 8, 9, 10, 11, 12, 13, 14, 50, 51, 52, 53, 54, 55, 71, 72]
+   TERM_cumulative_cost = 76.57637888888888
+   over_the_top_counter = 25
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 5.92297388948094
+   MPE_eval_PRE         = 4.176706068945841
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 4.43085007202611
+   MPE_eval_POST        = 4.219676043165038
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 5, 50, 6, 7, 51, 8, 9, 10, 11, 12, 13, 52, 53, 14, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 40, 41, 66]
+   TERM_cumulative_cost = 87.39852611111112
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 3.9504977496620297
+   MPE_eval_PRE         = 3.0995278908384325
+   n_SampledTrain_iter  = 13
+   MAPE_eval_POST       = 4.1605125740518245
+   MPE_eval_POST        = 3.9775755712796617
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 70, 50, 65, 66, 5, 67, 68, 69, 60, 61, 71, 72, 6, 73, 51, 62, 74, 63, 64, 15, 7, 16, 17, 19, 75, 76, 77, 78, 8, 9]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 70, 50, 65, 66, 5, 67, 68, 69, 60, 61, 71, 72, 6, 73, 51, 62, 74, 63, 64, 15, 7, 16, 17, 19, 75, 76, 77, 78, 8, 9]
+   TERM_cumulative_cost = 36.55571722222222
+   over_the_top_counter = 9
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 5.92297388948094
+   MPE_eval_PRE         = 4.176706068945841
+   n_SampledTrain_iter  = 11
+   MAPE_eval_POST       = 4.833757071865183
+   MPE_eval_POST        = 4.447063993131504
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 40, 5, 6, 7, 8, 50, 51, 9, 10, 11, 12, 13, 14, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 41, 42]
+   TERM_cumulative_cost = 87.46754555555556
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 3.9504977496620297
+   MPE_eval_PRE         = 3.0995278908384325
+   n_SampledTrain_iter  = 12
+   MAPE_eval_POST       = 4.146764644076482
+   MPE_eval_POST        = 3.942307553263089
+  Execution time: 16139.529814720154
+
+***** Exe : Query26 - black - extrapolation
+***** Case: 4
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 15, 30, 31, 32, 33, 34, 35, 36, 37, 1, 2, 3, 4, 38, 5, 39, 40, 6, 7, 8, 50, 51, 9, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 31, 32, 33, 34, 35, 36, 37, 1, 2, 3, 4, 38, 5, 39, 40, 6, 7, 8, 50, 51, 9, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+   TERM_cumulative_cost = 15.701015555555554
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 13, 25, 26, 45, 46, 47, 48, 35, 36, 49, 37, 38, 39, 40, 41, 42, 43, 44, 5, 6, 7, 8, 9, 50, 51, 30, 31, 32, 33, 34, 52, 53]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.15853556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 26, 45, 46, 47, 48, 35, 36, 49, 37, 38, 39, 40, 41, 42, 43, 44, 5, 6, 7, 8, 9, 50, 51, 30, 31, 32, 33, 34, 52, 53]
+   TERM_cumulative_cost = 15.14140888888889
+   over_the_top_counter = 3
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 30, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 5, 6, 7, 8, 9, 60, 61, 62, 63]
+   TERM_cumulative_cost = 87.7750327777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 3.673894790444106
+   MPE_eval_PRE         = -1.1732159132063578
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 2.548007156586424
+   MPE_eval_POST        = 1.9294000761322323
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 26, 27, 30, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 5, 6, 7, 8, 9, 60, 61]
+   TERM_cumulative_cost = 87.4337427777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.1885194685973275
+   MPE_eval_PRE         = -0.12040133331940109
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 3.4224577492401655
+   MPE_eval_POST        = 2.3257726396109644
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 13, 25, 50, 51, 52, 53, 54, 55, 56, 57, 1, 58, 59, 40, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 5, 70, 6, 7, 8, 9, 71, 72]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 50, 51, 52, 53, 54, 55, 56, 57, 1, 58, 59, 40, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 5, 70, 6, 7, 8, 9, 71, 72]
+   TERM_cumulative_cost = 90.7033038888889
+   over_the_top_counter = 22
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 3.673894790444106
+   MPE_eval_PRE         = -1.1732159132063578
+   n_SampledTrain_iter  = 8
+   MAPE_eval_POST       = 2.2683757161696296
+   MPE_eval_POST        = 1.4172735832832528
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 30, 50, 51, 52, 53, 54, 55, 56, 57, 58, 40, 59, 41, 42, 43, 44, 45, 46, 47, 48, 49, 5, 6, 7, 8, 9, 60, 61, 62, 63]
+   TERM_cumulative_cost = 87.7750327777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.1885194685973275
+   MPE_eval_PRE         = -0.12040133331940109
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 3.4224577492401655
+   MPE_eval_POST        = 2.3257726396109644
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 13, 25, 60, 50, 61, 62, 51, 63, 52, 5, 6, 7, 8, 64, 65, 9, 53, 54, 66, 67, 68, 69, 70, 71, 72, 55, 73, 56, 57, 58, 59, 40]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.19276222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 60, 50, 61, 62, 51, 63, 52, 5, 6, 7, 8, 64, 65, 9, 53, 54, 66, 67, 68, 69, 70, 71, 72, 55, 73, 56, 57, 58, 59, 40]
+   TERM_cumulative_cost = 91.17793555555555
+   over_the_top_counter = 21
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 3.673894790444106
+   MPE_eval_PRE         = -1.1732159132063578
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 2.548007156586424
+   MPE_eval_POST        = 1.9294000761322323
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 30, 50, 51, 52, 53, 54, 55, 56, 40, 57, 58, 59, 41, 42, 43, 44, 45, 46, 47, 48, 49, 5, 6, 7, 8, 9, 60, 31, 32, 61]
+   TERM_cumulative_cost = 87.46754555555556
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.1885194685973275
+   MPE_eval_PRE         = -0.12040133331940109
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 3.4224577492401655
+   MPE_eval_POST        = 2.3257726396109644
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 13, 25, 1, 2, 65, 60, 66, 61, 62, 5, 63, 64, 6, 67, 68, 7, 69, 8, 9, 50, 70, 71, 72, 51, 73, 74, 52, 53, 75, 76, 54, 55]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 2, 65, 60, 66, 61, 62, 5, 63, 64, 6, 67, 68, 7, 69, 8, 9, 50, 70, 71, 72, 51, 73, 74, 52, 53, 75, 76, 54, 55]
+   TERM_cumulative_cost = 42.54902888888888
+   over_the_top_counter = 10
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+                        = 
+   MAPE_eval_PRE        = 3.673894790444106
+   MPE_eval_PRE         = -1.1732159132063578
+   n_SampledTrain_iter  = 9
+   MAPE_eval_POST       = 2.269927977462852
+   MPE_eval_POST        = 1.4185735906418837
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 30, 26, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 40, 41, 42, 43, 44, 45, 46, 47, 5, 6, 48, 7, 49, 8, 9, 60, 61, 62]
+   TERM_cumulative_cost = 87.61862166666668
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 4.1885194685973275
+   MPE_eval_PRE         = -0.12040133331940109
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 3.4224577492401655
+   MPE_eval_POST        = 2.3257726396109644
+  Execution time: 15225.156876564026
+
+***** Exe : Query26 - black - extrapolation
+***** Case: 5
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 10, 11, 1, 2, 3, 36, 12, 4, 5, 6, 13, 7, 14, 15, 8, 9, 16, 17, 19, 37, 38, 20, 45, 46, 39, 47, 48, 49, 50, 51]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 10, 11, 1, 2, 3, 36, 12, 4, 5, 6, 13, 7, 14, 15, 8, 9, 16, 17, 19, 37, 38, 20, 45, 46, 39, 47, 48, 49, 50, 51]
+   TERM_cumulative_cost = 13.452655
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 13, 25, 1, 2, 3, 4, 5, 30, 31, 40, 32, 33, 34, 35, 36, 37, 6, 38, 41, 39, 42, 43, 44, 45, 46, 47, 48, 49, 10, 26, 27, 28]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20086222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 2, 3, 4, 5, 30, 31, 40, 32, 33, 34, 35, 36, 37, 6, 38, 41, 39, 42, 43, 44, 45, 46, 47, 48, 49, 10, 26, 27, 28]
+   TERM_cumulative_cost = 16.98773277777778
+   over_the_top_counter = 7
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 45, 46, 35, 47, 48, 49, 36, 50, 51, 37, 38, 52, 53, 54, 39, 40, 41, 42, 43, 44, 55, 56, 57, 58, 59, 10, 11, 12, 26]
+   TERM_cumulative_cost = 87.54753166666667
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 11.373965620051042
+   MPE_eval_PRE         = 10.354375641644369
+   n_SampledTrain_iter  = 6
+   MAPE_eval_POST       = 13.153353977180176
+   MPE_eval_POST        = 10.830627687427464
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 45, 46, 47, 35, 36, 48, 49, 37, 50, 38, 51, 52, 53, 54, 39, 40, 41, 42, 43, 44, 55, 56, 57, 58, 59, 26, 10, 11, 12]
+   TERM_cumulative_cost = 87.54753166666669
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 8.978677578292732
+   MPE_eval_PRE         = 8.752567766903303
+   n_SampledTrain_iter  = 6
+   MAPE_eval_POST       = 8.082897560460072
+   MPE_eval_POST        = 7.666119982634701
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 45, 46, 47, 48, 49, 5, 26, 50, 51, 52, 53, 54, 35, 36, 37, 38, 39, 40, 41, 42, 43, 55, 44, 56, 57, 58, 59, 10, 11]
+   TERM_cumulative_cost = 87.38447277777779
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 11.373965620051042
+   MPE_eval_PRE         = 10.354375641644369
+   n_SampledTrain_iter  = 6
+   MAPE_eval_POST       = 9.427199075364646
+   MPE_eval_POST        = 8.373917561881676
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 45, 46, 47, 48, 49, 26, 50, 51, 52, 53, 54, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 55, 56, 57, 58, 59, 27, 10, 11]
+   TERM_cumulative_cost = 87.41564277777778
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 8.978677578292732
+   MPE_eval_PRE         = 8.752567766903303
+   n_SampledTrain_iter  = 5
+   MAPE_eval_POST       = 8.092390813253521
+   MPE_eval_POST        = 7.682123237825111
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 45, 35, 46, 47, 48, 49, 50, 55, 56, 51, 52, 10, 53, 54, 36, 37, 38, 39, 57, 58, 40, 41, 42, 43, 11, 44, 59, 12, 14, 26]
+   TERM_cumulative_cost = 87.77673000000001
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 11.373965620051042
+   MPE_eval_PRE         = 10.354375641644369
+   n_SampledTrain_iter  = 6
+   MAPE_eval_POST       = 13.166115494700861
+   MPE_eval_POST        = 10.744686041481504
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 35, 36, 45, 37, 46, 47, 48, 49, 50, 51, 52, 53, 54, 38, 39, 40, 41, 42, 43, 44, 55, 56, 57, 58, 26, 59, 27, 10, 11]
+   TERM_cumulative_cost = 87.41564277777779
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 8.978677578292732
+   MPE_eval_PRE         = 8.752567766903303
+   n_SampledTrain_iter  = 5
+   MAPE_eval_POST       = 8.092390813253521
+   MPE_eval_POST        = 7.682123237825111
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 45, 46, 47, 48, 49, 55, 50, 56, 57, 58, 51, 59, 52, 53, 10, 54, 35, 36, 37, 11, 38, 12, 39, 40, 41, 42, 14, 43, 60, 61]
+   TERM_cumulative_cost = 88.45046777777779
+   over_the_top_counter = 28
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 11.373965620051042
+   MPE_eval_PRE         = 10.354375641644369
+   n_SampledTrain_iter  = 6
+   MAPE_eval_POST       = 13.166115494700861
+   MPE_eval_POST        = 10.744686041481504
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 26, 27, 45, 46, 35, 28, 47, 48, 49, 50, 36, 37, 51, 52, 53, 54, 38, 39, 40, 41, 42, 55, 43, 44, 56, 57, 58, 59, 10, 11]
+   TERM_cumulative_cost = 87.48618444444448
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 8.978677578292732
+   MPE_eval_PRE         = 8.752567766903303
+   n_SampledTrain_iter  = 4
+   MAPE_eval_POST       = 9.47445068790324
+   MPE_eval_POST        = 9.147081965701497
+  Execution time: 12135.470585346222
+
+***** Exe : Query26 - black - extrapolation
+***** Case: 6
+***** Run : Matern52 - EIC
+      Threshold = 0.16666666666666666
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 18, 35, 1, 2, 3, 4, 36, 37, 38, 5, 39, 40, 41, 42, 6, 43, 7, 8, 9, 10, 44, 11, 12, 13, 14, 15, 16, 17, 19, 45, 46, 47]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 18, 35, 1, 2, 3, 4, 36, 37, 38, 5, 39, 40, 41, 42, 6, 43, 7, 8, 9, 10, 44, 11, 12, 13, 14, 15, 16, 17, 19, 45, 46, 47]
+   TERM_cumulative_cost = 10.62383111111111
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ ------------------------ 
+   idataSize            = 750
+   features    : nan
+   observations: nan
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 13, 25, 1, 26, 2, 3, 4, 27, 28, 5, 29, 6, 7, 8, 9, 30, 10, 31, 40, 32, 41, 33, 34, 42, 35, 43, 44, 36, 37, 38, 39, 11]
+   TERM_cumulative_cost = 36.102845555555554
+   over_the_top_counter = 15
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ ------------------------ 
+ - Variant A w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 1, 2, 31, 32, 5, 6, 33, 45, 46, 47, 48, 35, 49, 50, 34, 51, 36, 7, 37, 52, 53, 54, 38, 39, 40, 41, 42, 43, 8, 9]
+   TERM_cumulative_cost = 86.43704555555557
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.578553812831164
+   MPE_eval_PRE         = 12.155856423925925
+   n_SampledTrain_iter  = 9
+   MAPE_eval_POST       = 12.249545099430351
+   MPE_eval_POST        = 11.931053724531948
+ ------------------------ 
+ - Variant A with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 1, 2, 31, 5, 6, 32, 45, 35, 36, 37, 46, 38, 39, 47, 48, 49, 50, 51, 52, 53, 54, 40, 41, 42, 33, 43, 44, 16, 17, 18]
+   TERM_cumulative_cost = 86.75019500000002
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.724622075345081
+   MPE_eval_PRE         = 12.618700883923134
+   n_SampledTrain_iter  = 9
+   MAPE_eval_POST       = 11.225556331168569
+   MPE_eval_POST        = 11.053278143775556
+ ------------------------ 
+ - Variant B w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 5, 6, 31, 7, 32, 33, 45, 46, 47, 48, 49, 1, 16, 50, 51, 52, 53, 54, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 17, 18]
+   TERM_cumulative_cost = 86.81513444444445
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.578553812831164
+   MPE_eval_PRE         = 12.155856423925925
+   n_SampledTrain_iter  = 9
+   MAPE_eval_POST       = 11.726023866783445
+   MPE_eval_POST        = 11.41258143024975
+ ------------------------ 
+ - Variant B with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 5, 6, 1, 7, 2, 45, 46, 35, 47, 36, 48, 49, 3, 8, 9, 31, 32, 10, 33, 50, 4, 11, 12, 51, 52, 53, 34, 54, 37, 38]
+   TERM_cumulative_cost = 86.14308833333334
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.724622075345081
+   MPE_eval_PRE         = 12.618700883923134
+   n_SampledTrain_iter  = 14
+   MAPE_eval_POST       = 13.470527023970114
+   MPE_eval_POST        = 13.317024617000595
+ ------------------------ 
+ - Variant C w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 55, 1, 56, 45, 16, 46, 17, 18, 19, 35, 57, 60, 58, 59, 61, 47, 48, 49, 50, 51, 52, 53, 54, 62, 63, 36, 37, 64, 65, 38]
+   TERM_cumulative_cost = 68.22943055555557
+   over_the_top_counter = 21
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.578553812831164
+   MPE_eval_PRE         = 12.155856423925925
+   n_SampledTrain_iter  = 7
+   MAPE_eval_POST       = 15.15382752232853
+   MPE_eval_POST        = 14.37184572316091
+ ------------------------ 
+ - Variant C with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 5, 6, 7, 31, 8, 9, 10, 35, 45, 32, 46, 47, 48, 49, 33, 34, 11, 50, 12, 13, 51, 36, 52, 37, 53, 54, 38, 39, 40, 14]
+   TERM_cumulative_cost = 86.39601055555556
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.724622075345081
+   MPE_eval_PRE         = 12.618700883923134
+   n_SampledTrain_iter  = 12
+   MAPE_eval_POST       = 13.271361108463637
+   MPE_eval_POST        = 13.082823120572208
+ ------------------------ 
+ - Variant D w/out data - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 55, 16, 17, 56, 1, 2, 45, 57, 18, 58, 59, 19, 60, 61, 62, 46, 63, 64, 47, 65, 48, 49, 50, 66, 51, 52, 67, 53, 54, 35]
+   TERM_cumulative_cost = 87.67893999999998
+   over_the_top_counter = 21
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.578553812831164
+   MPE_eval_PRE         = 12.155856423925925
+   n_SampledTrain_iter  = 8
+   MAPE_eval_POST       = 15.150883050863357
+   MPE_eval_POST        = 14.370924016142208
+ ------------------------ 
+ - Variant D with data  - 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 15, 30, 5, 6, 1, 7, 8, 31, 32, 9, 45, 35, 46, 47, 48, 36, 49, 10, 11, 37, 38, 33, 39, 12, 50, 40, 51, 41, 42, 52, 43, 53]
+   TERM_cumulative_cost = 86.45525166666667
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+                        = 
+   MAPE_eval_PRE        = 12.724622075345081
+   MPE_eval_PRE         = 12.618700883923134
+   n_SampledTrain_iter  = 11
+   MAPE_eval_POST       = 13.352732371008905
+   MPE_eval_POST        = 13.181529033858979
+  Execution time: 10761.987078666687
+
