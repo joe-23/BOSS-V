@@ -1,0 +1,810 @@
+***** Exe : Query26 - black - interpolation
+***** Case: 1
+***** Run : Matern52 - EIC - 250
+      Threshold = 0.1111111111111111
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 61, 62, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 80, 81]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.70540889]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 61, 62, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 80, 81]
+   TERM_cumulative_cost = 10.310771666666668
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 2.220446049250313e-14
+   nContainer selected  = 8.000000000000002
+   nContainer minimum   = 8.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 20, 71, 72, 73, 21, 25, 26, 1, 27, 28, 29, 80, 2, 81, 82, 83, 84, 22, 23, 24, 85, 86, 74, 87, 88, 89, 75, 31, 32]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.73676]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 20, 71, 72, 73, 21, 25, 26, 1, 27, 28, 29, 80, 2, 81, 82, 83, 84, 22, 23, 24, 85, 86, 74, 87, 88, 89, 75, 31, 32]
+   TERM_cumulative_cost = 9.218362222222222
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 50.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 8.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 61, 62, 63, 64, 65, 66, 67, 68, 69, 10, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 2, 21, 11, 22, 23, 3, 24, 12]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.70540889]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 61, 62, 63, 64, 65, 66, 67, 68, 69, 10, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 2, 21, 11, 22, 23, 3, 24, 12]
+   TERM_cumulative_cost = 10.077255555555556
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 2.220446049250313e-14
+   nContainer selected  = 8.000000000000002
+   nContainer minimum   = 8.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 71, 20, 72, 21, 73, 80, 25, 1, 81, 2, 82, 83, 84, 26, 27, 28, 22, 29, 23, 24, 85, 74, 86, 75, 87, 88, 89, 31, 32]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.73676]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 71, 20, 72, 21, 73, 80, 25, 1, 81, 2, 82, 83, 84, 26, 27, 28, 22, 29, 23, 24, 85, 74, 86, 75, 87, 88, 89, 31, 32]
+   TERM_cumulative_cost = 9.01863666666667
+   over_the_top_counter = 2
+   n_iter               = 30
+   nCPE                 = 50.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 8.0
+      Threshold = 0.16666666666666666
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 2, 61, 62, 70, 71, 3, 72, 4, 73, 5, 6, 74, 7, 8, 9, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 80, 10, 11, 81]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 2, 61, 62, 70, 71, 3, 72, 4, 73, 5, 6, 74, 7, 8, 9, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 80, 10, 11, 81]
+   TERM_cumulative_cost = 14.428702777777776
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 71, 1, 2, 72, 3, 4, 73, 5, 6, 7, 8, 9, 74, 75, 76, 77, 78, 79, 20, 21, 22, 80, 81, 23, 82, 25, 83, 84, 26]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 71, 1, 2, 72, 3, 4, 73, 5, 6, 7, 8, 9, 74, 75, 76, 77, 78, 79, 20, 21, 22, 80, 81, 23, 82, 25, 83, 84, 26]
+   TERM_cumulative_cost = 13.010945
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 2, 3, 61, 62, 63, 64, 70, 4, 5, 6, 71, 72, 7, 8, 10, 9, 73, 74, 75, 76, 77, 11, 78, 79, 20, 21, 22, 23, 24]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 2, 3, 61, 62, 63, 64, 70, 4, 5, 6, 71, 72, 7, 8, 10, 9, 73, 74, 75, 76, 77, 11, 78, 79, 20, 21, 22, 23, 24]
+   TERM_cumulative_cost = 14.352758888888888
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 61, 1, 70, 71, 2, 72, 73, 74, 75, 76, 3, 4, 77, 5, 78, 79, 6, 7, 20, 21, 22, 23, 25, 8, 9, 80, 26, 81, 82, 27]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 1, 70, 71, 2, 72, 73, 74, 75, 76, 3, 4, 77, 5, 78, 79, 6, 7, 20, 21, 22, 23, 25, 8, 9, 80, 26, 81, 82, 27]
+   TERM_cumulative_cost = 16.891523888888887
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+  Execution time: 17912.189502716064
+
+***** Exe : Query26 - black - interpolation
+***** Case: 2
+***** Run : Matern52 - EIC - 750
+      Threshold = 0.1111111111111111
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : nan
+   observations: nan
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 5, 10, 11, 12, 13, 14, 65, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 15, 16, 17, 18, 19, 6, 7, 8, 9]
+   TERM_cumulative_cost = 65.33059166666666
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : nan
+   observations: nan
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 10, 11, 12, 13, 14, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 15, 16, 17, 18, 19, 5, 6, 7, 8, 9]
+   TERM_cumulative_cost = 65.33059166666666
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 65, 10, 11, 12, 13, 14, 55, 56, 15, 57, 58, 59, 66, 60, 67, 68, 69, 16, 61, 1, 62, 63, 17, 80, 18, 64, 70, 19, 71, 72]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.42176]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 65, 10, 11, 12, 13, 14, 55, 56, 15, 57, 58, 59, 66, 60, 67, 68, 69, 16, 61, 1, 62, 63, 17, 80, 18, 64, 70, 19, 71, 72]
+   TERM_cumulative_cost = 59.8161
+   over_the_top_counter = 25
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 26, 10, 11, 12, 13, 14, 55, 56, 57, 58, 1, 59, 65, 60, 15, 61, 66, 62, 67, 68, 16, 63, 70, 17, 18, 69, 19, 71, 72, 73]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.71130222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 26, 10, 11, 12, 13, 14, 55, 56, 57, 58, 1, 59, 65, 60, 15, 61, 66, 62, 67, 68, 16, 63, 70, 17, 18, 69, 19, 71, 72, 73]
+   TERM_cumulative_cost = 26.412073333333336
+   over_the_top_counter = 11
+   n_iter               = 30
+   nCPE                 = 27.27272727272727
+   nContainer selected  = 28.0
+   nContainer minimum   = 22.0
+      Threshold = 0.16666666666666666
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 51, 55, 10, 56, 11, 57, 58, 12, 59, 13, 60, 61, 62, 63, 14, 64, 65, 66, 67, 68, 69, 5, 6, 7, 15, 8, 9, 16, 17, 18]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.19911611]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 51, 55, 10, 56, 11, 57, 58, 12, 59, 13, 60, 61, 62, 63, 14, 64, 65, 66, 67, 68, 69, 5, 6, 7, 15, 8, 9, 16, 17, 18]
+   TERM_cumulative_cost = 15.118468333333333
+   over_the_top_counter = 5
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 10, 55, 56, 57, 58, 59, 11, 60, 61, 12, 13, 14, 62, 63, 64, 65, 66, 15, 67, 68, 69, 16, 5, 6, 7, 8, 9, 17, 18, 19]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.19911611]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 10, 55, 56, 57, 58, 59, 11, 60, 61, 12, 13, 14, 62, 63, 64, 65, 66, 15, 67, 68, 69, 16, 5, 6, 7, 8, 9, 17, 18, 19]
+   TERM_cumulative_cost = 15.151128333333334
+   over_the_top_counter = 5
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 10, 55, 56, 57, 58, 59, 60, 61, 62, 11, 12, 63, 13, 64, 14, 65, 66, 67, 68, 69, 5, 6, 7, 8, 15, 9, 16, 17, 18, 19]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20086222]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 10, 55, 56, 57, 58, 59, 60, 61, 62, 11, 12, 63, 13, 64, 14, 65, 66, 67, 68, 69, 5, 6, 7, 8, 15, 9, 16, 17, 18, 19]
+   TERM_cumulative_cost = 15.097462222222223
+   over_the_top_counter = 6
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 10, 55, 11, 12, 56, 13, 57, 14, 58, 59, 60, 61, 62, 63, 64, 65, 66, 15, 67, 68, 69, 5, 6, 7, 16, 8, 9, 17, 18, 19]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.15853556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 10, 55, 11, 12, 56, 13, 57, 14, 58, 59, 60, 61, 62, 63, 64, 65, 66, 15, 67, 68, 69, 5, 6, 7, 16, 8, 9, 17, 18, 19]
+   TERM_cumulative_cost = 15.169685555555557
+   over_the_top_counter = 3
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 14.0
+  Execution time: 12795.973612308502
+
+***** Exe : Query26 - black - interpolation
+***** Case: 3
+***** Run : Matern52 - EIC - 1000
+      Threshold = 0.1111111111111111
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 75, 76, 77, 78, 79, 66, 67, 68, 69, 70, 71, 72, 73, 74, 25, 26, 27, 28]
+   TERM_cumulative_cost = 87.72313
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 5, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 75, 76, 77, 78, 79, 80, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 25, 26, 27]
+   TERM_cumulative_cost = 87.95614833333333
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 80, 15, 25, 65, 66, 26, 5, 6, 81, 7, 67, 1, 8, 9, 2, 10, 27, 11, 75, 16, 17, 82, 68, 69, 76, 12, 83, 77, 84, 13]
+   TERM_cumulative_cost = 88.65400555555557
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 25, 80, 61, 5, 15, 62, 65, 16, 81, 75, 17, 82, 6, 1, 18, 26, 63, 83, 19, 7, 84, 20, 21, 2, 31, 76, 3, 8, 4, 22]
+   TERM_cumulative_cost = 88.79825944444441
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+      Threshold = 0.16666666666666666
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 61, 62, 15, 16, 17, 18, 19, 20, 21, 65, 22, 23, 24, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 25, 26]
+   TERM_cumulative_cost = 87.38184000000001
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 25, 68, 69, 70, 71, 72, 73, 26, 27, 28, 29, 75, 76, 77, 80, 78]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 25, 68, 69, 70, 71, 72, 73, 26, 27, 28, 29, 75, 76, 77, 80, 78]
+   TERM_cumulative_cost = 88.12668222222223
+   over_the_top_counter = 29
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 80, 25, 75, 15, 76, 77, 16, 78, 26, 17, 27, 28, 79, 29, 18, 19, 20, 21, 22, 23, 24, 81, 82, 65, 66, 67, 68, 69, 70]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 80, 25, 75, 15, 76, 77, 16, 78, 26, 17, 27, 28, 79, 29, 18, 19, 20, 21, 22, 23, 24, 81, 82, 65, 66, 67, 68, 69, 70]
+   TERM_cumulative_cost = 38.78354222222223
+   over_the_top_counter = 12
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 80, 15, 25, 26, 75, 76, 27, 28, 29, 81, 82, 77, 16, 83, 78, 79, 84, 31, 17, 18, 32, 33, 34, 85, 86, 87, 88, 89, 19]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.20405556]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 80, 15, 25, 26, 75, 76, 27, 28, 29, 81, 82, 77, 16, 83, 78, 79, 84, 31, 17, 18, 32, 33, 34, 85, 86, 87, 88, 89, 19]
+   TERM_cumulative_cost = 39.44344666666667
+   over_the_top_counter = 10
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 22.0
+   nContainer minimum   = 22.0
+  Execution time: 11368.40475487709
+
+***** Exe : Query26 - black - interpolation
+***** Case: 1
+***** Run : Matern52 - EIC - 250
+      Threshold = 0.1388888888888889
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 61, 2, 70, 3, 71, 72, 4, 5, 73, 74, 6, 75, 7, 8, 9, 76, 77, 78, 10, 79, 20, 21, 22, 23, 24, 11, 12, 13, 14]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 61, 2, 70, 3, 71, 72, 4, 5, 73, 74, 6, 75, 7, 8, 9, 76, 77, 78, 10, 79, 20, 21, 22, 23, 24, 11, 12, 13, 14]
+   TERM_cumulative_cost = 13.723293888888886
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 71, 1, 72, 2, 73, 3, 74, 4, 75, 76, 77, 5, 78, 6, 7, 8, 79, 9, 20, 21, 22, 25, 80, 26, 81, 82, 27, 83, 23]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 71, 1, 72, 2, 73, 3, 74, 4, 75, 76, 77, 5, 78, 6, 7, 8, 79, 9, 20, 21, 22, 25, 80, 26, 81, 82, 27, 83, 23]
+   TERM_cumulative_cost = 14.516773888888887
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 2, 3, 61, 4, 5, 6, 62, 63, 7, 8, 64, 65, 66, 9, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 21, 22, 23]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 2, 3, 61, 4, 5, 6, 62, 63, 7, 8, 64, 65, 66, 9, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 20, 21, 22, 23]
+   TERM_cumulative_cost = 4.928722222222222
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 1, 71, 72, 2, 3, 73, 4, 5, 74, 6, 75, 76, 77, 7, 78, 79, 20, 21, 22, 23, 80, 8, 9, 24, 25, 10, 81, 82, 83]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 1, 71, 72, 2, 3, 73, 4, 5, 74, 6, 75, 76, 77, 7, 78, 79, 20, 21, 22, 23, 80, 8, 9, 24, 25, 10, 81, 82, 83]
+   TERM_cumulative_cost = 13.864202222222222
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+      Threshold = 0.3333333333333333
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 2, 61, 62, 70, 71, 3, 72, 4, 73, 5, 6, 74, 7, 8, 9, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 80, 10, 11, 81]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 2, 61, 62, 70, 71, 3, 72, 4, 73, 5, 6, 74, 7, 8, 9, 75, 76, 77, 78, 79, 20, 21, 22, 23, 24, 80, 10, 11, 81]
+   TERM_cumulative_cost = 14.428702777777776
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 70, 71, 1, 2, 72, 3, 4, 73, 5, 6, 7, 8, 9, 74, 75, 76, 77, 78, 79, 20, 21, 22, 80, 81, 23, 82, 25, 83, 84, 26]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 70, 71, 1, 2, 72, 3, 4, 73, 5, 6, 7, 8, 9, 74, 75, 76, 77, 78, 79, 20, 21, 22, 80, 81, 23, 82, 25, 83, 84, 26]
+   TERM_cumulative_cost = 13.010945
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 2, 3, 61, 62, 63, 64, 70, 4, 5, 6, 71, 72, 7, 8, 10, 9, 73, 74, 75, 76, 77, 11, 78, 79, 20, 21, 22, 23, 24]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69767167]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 2, 3, 61, 62, 63, 64, 70, 4, 5, 6, 71, 72, 7, 8, 10, 9, 73, 74, 75, 76, 77, 11, 78, 79, 20, 21, 22, 23, 24]
+   TERM_cumulative_cost = 4.953947222222222
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 250
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 61, 1, 70, 71, 2, 72, 73, 74, 75, 76, 3, 4, 77, 5, 78, 79, 6, 7, 20, 21, 22, 23, 25, 8, 9, 80, 26, 81, 82, 27]
+   Time bounds : [0.032085] - [0.11889806]
+   Cost bounds : [0.69326] - [1.43872667]
+   Best cost   : [0.69326]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 1, 70, 71, 2, 72, 73, 74, 75, 76, 3, 4, 77, 5, 78, 79, 6, 7, 20, 21, 22, 23, 25, 8, 9, 80, 26, 81, 82, 27]
+   TERM_cumulative_cost = 16.891523888888887
+   over_the_top_counter = 0
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 6.0
+   nContainer minimum   = 6.0
+  Execution time: 17643.087794065475
+
+***** Exe : Query26 - black - interpolation
+***** Case: 2
+***** Run : Matern52 - EIC - 750
+      Threshold = 0.1388888888888889
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 51, 52, 10, 11, 12, 55, 13, 14, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 5, 15, 6, 16, 7, 8, 9, 17]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20823111]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 51, 52, 10, 11, 12, 55, 13, 14, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 5, 15, 6, 16, 7, 8, 9, 17]
+   TERM_cumulative_cost = 38.823145000000004
+   over_the_top_counter = 17
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 16.0
+   nContainer minimum   = 16.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 10, 11, 12, 13, 14, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 15, 16, 17, 5, 18, 6, 7, 8, 19, 9]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20823111]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 10, 11, 12, 13, 14, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 15, 16, 17, 5, 18, 6, 7, 8, 19, 9]
+   TERM_cumulative_cost = 34.616100555555555
+   over_the_top_counter = 15
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 16.0
+   nContainer minimum   = 16.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 65, 10, 11, 12, 13, 55, 14, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 5, 6, 15, 16, 7, 8, 17, 9, 18, 19]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.20823111]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 65, 10, 11, 12, 13, 55, 14, 56, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 69, 5, 6, 15, 16, 7, 8, 17, 9, 18, 19]
+   TERM_cumulative_cost = 15.236727222222223
+   over_the_top_counter = 6
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 16.0
+   nContainer minimum   = 16.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 65, 10, 11, 66, 12, 13, 14, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 67, 15, 68, 69, 16, 17, 18, 5, 19, 6, 7, 8, 9]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.19085778]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 65, 10, 11, 66, 12, 13, 14, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 67, 15, 68, 69, 16, 17, 18, 5, 19, 6, 7, 8, 9]
+   TERM_cumulative_cost = 15.278905
+   over_the_top_counter = 5
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 16.0
+   nContainer minimum   = 16.0
+      Threshold = 0.3333333333333333
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 51, 55, 56, 57, 1, 58, 2, 3, 59, 60, 61, 62, 63, 64, 10, 11, 4, 12, 13, 14, 65, 66, 67, 68, 69, 15, 5, 6, 7, 8]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.12785333]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 51, 55, 56, 57, 1, 58, 2, 3, 59, 60, 61, 62, 63, 64, 10, 11, 4, 12, 13, 14, 65, 66, 67, 68, 69, 15, 5, 6, 7, 8]
+   TERM_cumulative_cost = 25.63648666666667
+   over_the_top_counter = 3
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 8.0
+   nContainer minimum   = 8.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 55, 56, 1, 57, 2, 3, 58, 4, 59, 10, 60, 61, 62, 63, 64, 11, 12, 13, 14, 65, 66, 15, 16, 17, 18, 19, 67, 68, 69, 70]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.13768]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 55, 56, 1, 57, 2, 3, 58, 4, 59, 10, 60, 61, 62, 63, 64, 11, 12, 13, 14, 65, 66, 15, 16, 17, 18, 19, 67, 68, 69, 70]
+   TERM_cumulative_cost = 27.80887388888889
+   over_the_top_counter = 4
+   n_iter               = 30
+   nCPE                 = 50.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 8.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 51, 52, 5, 55, 1, 56, 2, 57, 3, 58, 4, 59, 60, 61, 62, 63, 64, 10, 11, 12, 13, 14, 65, 6, 66, 67, 7, 8, 68, 69]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.07919111]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 51, 52, 5, 55, 1, 56, 2, 57, 3, 58, 4, 59, 60, 61, 62, 63, 64, 10, 11, 12, 13, 14, 65, 6, 66, 67, 7, 8, 68, 69]
+   TERM_cumulative_cost = 27.62654777777778
+   over_the_top_counter = 4
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 8.0
+   nContainer minimum   = 8.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 750
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 25, 50, 55, 1, 56, 2, 57, 3, 58, 59, 60, 61, 62, 4, 63, 64, 10, 11, 12, 13, 15, 16, 65, 17, 18, 19, 66, 67, 68, 69, 14, 70]
+   Time bounds : [0.08473306] - [0.357515]
+   Cost bounds : [2.069805] - [3.75592556]
+   Best cost   : [2.13768]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 25, 50, 55, 1, 56, 2, 57, 3, 58, 59, 60, 61, 62, 4, 63, 64, 10, 11, 12, 13, 15, 16, 65, 17, 18, 19, 66, 67, 68, 69, 14, 70]
+   TERM_cumulative_cost = 29.947315000000003
+   over_the_top_counter = 4
+   n_iter               = 30
+   nCPE                 = 50.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 8.0
+  Execution time: 16568.78384590149
+
+***** Exe : Query26 - black - interpolation
+***** Case: 3
+***** Run : Matern52 - EIC - 1000
+      Threshold = 0.1388888888888889
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 5, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 25, 26, 27]
+   TERM_cumulative_cost = 87.56753444444446
+   over_the_top_counter = 30
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 5, 15, 80, 25, 81, 82, 83, 26, 16, 84, 27, 28, 29, 31, 32, 17, 18, 33, 19, 20, 21, 22, 34, 75, 23, 76, 24, 65, 77, 66]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [3.29286667]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 5, 15, 80, 25, 81, 82, 83, 26, 16, 84, 27, 28, 29, 31, 32, 17, 18, 33, 19, 20, 21, 22, 34, 75, 23, 76, 24, 65, 77, 66]
+   TERM_cumulative_cost = 43.24395833333334
+   over_the_top_counter = 13
+   n_iter               = 30
+   nCPE                 = 0.0
+   nContainer selected  = 24.0
+   nContainer minimum   = 24.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 80, 35, 25, 81, 82, 26, 83, 27, 28, 29, 84, 75, 31, 5, 76, 77, 78, 32, 1, 90, 33, 2, 79, 34, 85, 86, 87, 3, 88, 15]
+   TERM_cumulative_cost = 22.54850111111111
+   over_the_top_counter = 6
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : nan
+   observations: nan
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : nan
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 25, 80, 75, 26, 15, 16, 27, 28, 76, 29, 77, 78, 81, 82, 83, 79, 17, 84, 18, 5, 19, 31, 32, 33, 34, 20, 21, 85, 86, 87]
+   TERM_cumulative_cost = 27.122180000000004
+   over_the_top_counter = 9
+   n_iter               = 30
+   nCPE                 = nan
+   nContainer selected  = nan
+   nContainer minimum   = nan
+      Threshold = 0.3333333333333333
+ -- Variant A ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 1, 65, 66, 67, 68, 69, 15, 70, 71, 16, 72, 17, 73, 74, 18, 19, 20, 21, 22, 23, 24, 75, 76, 77, 78, 2, 79, 5, 6, 7]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [2.85207667]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 1, 65, 66, 67, 68, 69, 15, 70, 71, 16, 72, 17, 73, 74, 18, 19, 20, 21, 22, 23, 24, 75, 76, 77, 78, 2, 79, 5, 6, 7]
+   TERM_cumulative_cost = 46.301524444444446
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 20.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 10.0
+ -- Variant B ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 61, 15, 25, 26, 27, 28, 29, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 16, 17, 31, 18, 19, 32, 33, 20, 21, 22, 23, 24, 34]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [2.88141778]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 15, 25, 26, 27, 28, 29, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 16, 17, 31, 18, 19, 32, 33, 20, 21, 22, 23, 24, 34]
+   TERM_cumulative_cost = 91.15446777777777
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 40.0
+   nContainer selected  = 14.0
+   nContainer minimum   = 10.0
+ -- Variant C ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 61, 65, 66, 15, 67, 68, 69, 16, 70, 71, 17, 72, 73, 74, 18, 19, 1, 20, 21, 22, 23, 24, 75, 76, 77, 78, 79, 5, 6, 7]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [2.85207667]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 65, 66, 15, 67, 68, 69, 16, 70, 71, 17, 72, 73, 74, 18, 19, 1, 20, 21, 22, 23, 24, 75, 76, 77, 78, 79, 5, 6, 7]
+   TERM_cumulative_cost = 49.16805333333333
+   over_the_top_counter = 2
+   n_iter               = 30
+   nCPE                 = 20.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 10.0
+ -- Variant D ----------- 
+ ------------------------ 
+   idataSize            = 1000
+   features    : [0, 1, 2, 3, 4, 5]
+   observations: [0, 30, 60, 61, 65, 15, 25, 75, 26, 27, 28, 29, 76, 77, 78, 80, 81, 79, 82, 83, 84, 31, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32, 33]
+   Time bounds : [0.112065] - [0.47097861]
+   Cost bounds : [2.80958667] - [5.04511333]
+   Best cost   : [2.88938333]
+   TERM_features        = [0, 1, 2, 3, 4, 5]
+   TERM_observations    = [0, 30, 60, 61, 65, 15, 25, 75, 26, 27, 28, 29, 76, 77, 78, 80, 81, 79, 82, 83, 84, 31, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32, 33]
+   TERM_cumulative_cost = 38.886545
+   over_the_top_counter = 1
+   n_iter               = 30
+   nCPE                 = 20.0
+   nContainer selected  = 12.0
+   nContainer minimum   = 10.0
+  Execution time: 14256.556690692902
+
